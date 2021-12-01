@@ -64,7 +64,7 @@
     color: #fff;
     border: none;
     border-radius: 2px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
     /* ==== section two ==== */
@@ -392,6 +392,7 @@
     width: 400px;
     text-align: center;
     margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .section-five .btn {
@@ -400,6 +401,7 @@
     color: #fff;
     border: none;
     border-radius: 2px;
+    margin-bottom: 50px;
 }
 
 .section-five {
@@ -454,3 +456,84 @@
 .section-five img{
     padding-top:10%;
 }
+
+/* === section six === */
+
+
+.section-six {
+    min-height: 100vh;
+    background-color: #d74681;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-six__title {
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.section-six__title:after {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #b93a6d;
+    width: 70px;
+    bottom: -10px;
+    left: calc(50% - 35px);
+}
+
+.section-six article div {
+    margin: 10px;
+    margin-bottom: 35px;
+    display: grid;
+    grid-template-columns: 0.45fr 0.45fr;
+    /*display: flex;
+    justify-content: space-around;*/ 
+}
+
+.section-six .card__name{
+    width: 415px;
+    font-size: 17px;
+}
+
+.section-six header p{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.section-six h2 {
+    width: 1000px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.section-six i{
+    color: #787878;
+    font-size: 100px;
+    margin-left: 50px;
+}
+
+.section-six h3{
+    color: rgb(223, 223, 126);
+    font-size: 17px;
+}
+
+.section-six article p{
+    color: white;
+    font-size: 17px;
+    width:280px;
+}
+
+.section-six h4{
+    color: white;
+    font-size: 17px;
+    padding-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+} 
