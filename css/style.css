@@ -69,12 +69,6 @@
     font-size: 20px;
 }
 
-@media screen and (max-width: 576px) {
-	.container {
-		width: 80%;
-	}
-}
-
     /* ==== section two ==== */
     
     .section-two {
@@ -169,12 +163,6 @@
     .section-two .h3{
         margin-top: 50px;
         padding-top:2%;
-    }
-
-    @media screen and (max-width: 576px) {
-        .container {
-            width: 80%;
-        }
     }
 
     /* ==== section three ==== */
@@ -295,14 +283,6 @@
     padding-top:10%;
     padding-bottom:10%;
 }
-
-
-@media screen and (max-width: 576px) {
-    .container {
-           width: 80%;
-    }
-}
-
 /* ==== section four ==== */
     
 .section-four {
@@ -380,13 +360,6 @@
         font-family: 'Montserrat', sans-serif;
 
         }
-
-        @media screen and (max-width: 576px) {
-            .container {
-                width: 80%;
-            }
-        }
-
 /* === section five === */
 
 .section-five .navbar {
@@ -480,12 +453,6 @@
     padding-top:10%;
 }
 
-@media screen and (max-width: 576px) {
-	.container {
-		width: 80%;
-	}
-}
-
 /* === section six === */
 
 
@@ -565,12 +532,6 @@
     font-size: 17px;
     padding-top: 15px;
     font-family: 'Montserrat', sans-serif;
-}
-
-@media screen and (max-width: 576px) {
-	.container {
-		width: 80%;
-	}
 }
 
 /* === section seven === */
@@ -675,8 +636,3 @@ input::placeholder {
 	max-width: 900px;	
 }
 
-@media screen and (max-width: 576px) {
-	.container {
-		width: 80%;
-	}
-}
