@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap'); 
+
 * {
     margin: 0;
     padding: 0;
@@ -65,6 +67,12 @@
     border: none;
     border-radius: 2px;
     font-size: 20px;
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 80%;
+	}
 }
 
     /* ==== section two ==== */
@@ -161,6 +169,12 @@
     .section-two .h3{
         margin-top: 50px;
         padding-top:2%;
+    }
+
+    @media screen and (max-width: 576px) {
+        .container {
+            width: 80%;
+        }
     }
 
     /* ==== section three ==== */
@@ -277,26 +291,28 @@
     background-color: rgb(65, 65, 230);
 }
 
-.section-two {
+.section-three {
     padding-top:10%;
     padding-bottom:10%;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    }
 
-    /* ==== section four ==== */
+@media screen and (max-width: 576px) {
+    .container {
+           width: 80%;
+    }
+}
+
+/* ==== section four ==== */
     
-    .section-four {
-        min-height: 100vh;
-        background-color: #ffffff;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        }
+.section-four {
+    min-height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
         
         .section-four__title {
         text-transform: uppercase;
@@ -365,6 +381,12 @@
 
         }
 
+        @media screen and (max-width: 576px) {
+            .container {
+                width: 80%;
+            }
+        }
+
 /* === section five === */
 
 .section-five .navbar {
@@ -393,6 +415,7 @@
     text-align: center;
     margin-bottom: 30px;
     font-family: 'Montserrat', sans-serif;
+    color: #545454;
 }
 
 .section-five .btn {
@@ -455,6 +478,12 @@
 }
 .section-five img{
     padding-top:10%;
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 80%;
+	}
 }
 
 /* === section six === */
@@ -536,4 +565,118 @@
     font-size: 17px;
     padding-top: 15px;
     font-family: 'Montserrat', sans-serif;
-} 
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 80%;
+	}
+}
+
+/* === section seven === */
+
+
+.section-seven {
+    min-height: 100vh;
+    background-color: #3c549a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-seven__title {
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.section-seven__title:after {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #273a72;
+    width: 70px;
+    bottom: -10px;
+    left: calc(50% - 35px);
+}
+
+.section-seven p{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.section-seven h2 {
+    width: 1000px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 120px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-seven .btn {
+    padding: 10px 20px;
+    background-color: #30bae8;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 300px;
+    height: 60px;
+    color:white;
+    margin-top: 60px;
+}
+
+.footer {
+	border-top: 1px solid 3c5499; 
+	background: #344b8e;
+	padding: 45px 0px 37px 0px;
+}
+
+.social__item {
+	font-size: 24px;
+	color: white;
+    text-decoration: none;
+}
+
+.card__link-list {
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+    list-style-type: none;
+}
+
+.input {
+	font-size: 20px;
+	width: 410px;
+	background: #273a71;
+	padding: 15px 0px 15px 20px;
+	border: 0;
+	border-radius: 10px;
+	color: white;
+}
+
+input::placeholder {
+    color: white; 
+}
+
+.input:nth-child(3) {
+   margin-top: 30px;
+   width: 100%;
+   padding-bottom: 150px;
+}
+
+.form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 900px;	
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 80%;
+	}
+}
